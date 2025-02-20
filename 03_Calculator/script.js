@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 secondNumber = "";
                 output.textContent = currentInput;
             } else if (value === "=") {
-                // Equal
+                // Equal 
                 secondNumber = currentInput;
                 const result = calculate(firstNumber, operator, secondNumber);
                 output.textContent = result;
